@@ -3,7 +3,7 @@
 function openAPage() {
   
    browser.tabs.create({
-     "url": "https://vscode.dev/"
+     "url": "https://nkowaokwu.com/home"
    });
 }
 

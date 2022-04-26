@@ -1,7 +1,7 @@
 {
 
   "manifest_version": 2,
-  "version": "0.2",
+  "version": "0.1",
   
   "name": "Nkowa okwu",
   "permissions": [
@@ -13,8 +13,15 @@
 	"96": "icons/icon96.png"
   },
 
+  "chrome_settings_overrides": {
+		  "search_provider": {
+		  "name": "Nkọwa okwu",
+      "keyword": "@Igbo",
+		  "search_url": "https://nkowaokwu.com/search?word={searchTerms}"
+		}
+
     "background": {
-    "scripts": ["shortcut.js", "search.js", "wordsearch.js"]
+    "scripts": ["shortcut.js", "wordsearch.js"]
 },
   
    "browser_action": {

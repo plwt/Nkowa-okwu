@@ -4,14 +4,14 @@ function onRequest(info, tab) {
 	var selection = info.selectionText;
 //do something with the selection
 if(selection){
-	var serviceCall = 'https://cs.github.com/?scopeName=All+repos&scope=&q=' + encodeURIComponent(selection);
+	var serviceCall = 'https://nkowaokwu.com/search?word=' + encodeURIComponent(selection);
 	chrome.tabs.create({url: serviceCall});
 }
 };
 
 chrome.contextMenus.create({
-	id: "ghcs_search",
+	id: "so_search",
 	contexts: ["selection"],
-	title: "Search with GitHub Code Search",
+	title: "Search with Nkọwa okwu",
 	"onclick" : onRequest
 });
