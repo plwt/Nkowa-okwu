@@ -16,7 +16,7 @@
   "chrome_settings_overrides": {
 		  "search_provider": {
 		  "name": "Nkọwa okwu",
-      "keyword": "@Igbo",
+      "keyword": "@test",
 		  "search_url": "https://nkowaokwu.com/search?word={searchTerms}"
 		}
 
