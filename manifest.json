@@ -3,7 +3,7 @@
   "manifest_version": 2,
   "version": "0.2",
   
-  "name": "VS Code for the Web",
+  "name": "Nkowa okwu",
   "permissions": [
 		"activeTab",     
 		"contextMenus"
@@ -14,7 +14,7 @@
   },
 
     "background": {
-    "scripts": ["shortcut.js", "stackoverflow.js", "ghcs.js"]
+    "scripts": ["shortcut.js", "search.js", "wordsearch.js"]
 },
   
    "browser_action": {
