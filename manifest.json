@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "Nkọwa okwu",
+  "version": "0.1",
+  "permissions": [
+		"activeTab",     
+		"contextMenus"
+	],
+  "icons": {
+    "48": "icons/icon48.png",
+	"96": "icons/icon96.png"
+  },
+  
+  
+
+  "chrome_settings_overrides": {
+		"search_provider": {
+		"name": "Nkọwa okwu",
+            	"keyword": "@test",
+		"search_url": "https://nkowaokwu.com/search?word={searchTerms}"
+		}
+	},
+
+    "background": {
+    "scripts": ["shortcut.js", "wordsearch.js"]
+},
+  
+   "browser_action": {
+		"default_icon": "icons/icon32.png"
+	}
+
+}
