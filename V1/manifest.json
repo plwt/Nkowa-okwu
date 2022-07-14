@@ -19,8 +19,8 @@
 	},
 	"background": {
 		"scripts": [
-			"shortcut.js",
-			"wordsearch.js"
+			"scripts/shortcut.js",
+			"scripts/wordsearch.js"
 		]
 	},
 	"browser_action": {
