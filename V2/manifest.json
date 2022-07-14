@@ -2,6 +2,10 @@
   "manifest_version": 2,
   "name": "Nkọwa okwu",
   "version": "0.1",
+  "permissions": [
+    "storage",
+    "https://www.google.com/"
+  ],
   "icons": {
     "48": "icons/icon48.png",
     "96": "icons/icon96.png"
@@ -22,9 +26,5 @@
       "common/browser-polyfill.js"
     ],
     "persistent": false
-  },
-  "permissions": [
-    "storage",
-    "https://www.google.com/"
-  ]
+  }
 }
